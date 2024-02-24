@@ -1,6 +1,6 @@
 # Basic Link Syntax
 
-"[Link Text](URL)"
+`"[Link Text](URL)"`
 
 - Link Text: This is the visible part of the link that users will see in the document. It's placed inside square brackets [ ].
 - URL: This is the web address or path you want the link to point to. It's placed inside parentheses ( ).
