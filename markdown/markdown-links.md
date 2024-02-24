@@ -4,6 +4,9 @@
 [Link Text](URL)
 ```
 
+Rendered:
+[Link Text](URL)
+
 - Link Text: This is the visible part of the link that users will see in the document. It's placed inside square brackets [ ].
 - URL: This is the web address or path you want the link to point to. It's placed inside parentheses ( ).
 
@@ -12,6 +15,9 @@
 ```markdown
 [Google](https://www.google.com)
 ```
+
+Rendered:
+[Google](https://www.google.com)
 
 In the above example, "Google" is the link text that will be visible, and
 clicking on it will take the user to https://www.google.com.
@@ -25,6 +31,8 @@ documentation or notes.
 ```markdown
 [Java Notes](/Java/README.md)
 ```
+Rendered:
+[Java Notes](/Java/README.md)
 
 In this example, clicking on "Java Notes" would take the user to the README file
 located in the Java directory of the same repository.
@@ -38,6 +46,8 @@ special characters to create the link target.
 ```markdown
 [Go to Index](#index)
 ```
+Rendered:
+[Go to Index](#index)
 
 Assuming there's a section titled "Index" in the same document, clicking on
 "Go to Index" would take the user directly to that section.
