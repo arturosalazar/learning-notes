@@ -1,6 +1,6 @@
 # Basic Link Syntax
 
-```
+```markdown
 [Link Text](URL)
 ```
 
