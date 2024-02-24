@@ -1,7 +1,5 @@
 # Basic Link Syntax
 
-`[Link Text](URL)`
-
 ```
 [Link Text](URL)
 ```
