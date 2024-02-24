@@ -22,13 +22,11 @@ line with the rest of the text
 Using Triple Backticks
 
 ```markdown
-
-```
+` ` `
 
 [Link Text](URL)
 
-```
-
+` ` `
 ```
 
 Using Indentation (Four Spaces)
@@ -43,37 +41,41 @@ Both rendered as:
 [Link Text](URL)
 ```
 
-
 # Code Blocks - Syntax Highlighting
-Many Markdown renderers (but not necessarily all) support syntax highlighting 
-for code blocks when you specify the programming language immediately after the 
-opening triple backticks. This applies a color scheme appropriate for the 
+
+Many Markdown renderers (but not necessarily all) support syntax highlighting
+for code blocks when you specify the programming language immediately after the
+opening triple backticks. This applies a color scheme appropriate for the
 specified language, making the code easier to read and understand.
 
-```markdown
+````markdown
 ```python
 def hello_world():
     print("Hello, world!")
 ```
-```
+````
+
+````
 
 Rendered as:
 ```python
 def hello_world():
     print("Hello, world!")
-```
+````
 
-```markdown
+````markdown
 ```javascript
 function helloWorld() {
-    console.log("Hello, world!");
+  console.log("Hello, world!");
 }
 ```
-```
+````
+
+````
 
 Rendered as:
 ```javascript
 function helloWorld() {
     console.log("Hello, world!");
 }
-```
+````
