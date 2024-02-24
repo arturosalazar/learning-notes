@@ -9,7 +9,7 @@
 
 # Example
 
-```
+```markdown
 [Google](https://www.google.com)
 ```
 
@@ -22,7 +22,7 @@ You can also use relative paths to link to other documents or sections within
 the same GitHub repository. This is particularly useful for organizing
 documentation or notes.
 
-```
+```markdown
 [Java Notes](/Java/README.md)
 ```
 
@@ -35,7 +35,7 @@ Markdown allows you to link to specific sections within the same document using
 the section title. This is done by replacing spaces with dashes and removing
 special characters to create the link target.
 
-```
+```markdown
 [Go to Index](#index)
 ```
 
