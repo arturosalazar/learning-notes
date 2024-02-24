@@ -10,7 +10,8 @@ and email.
 [Link Text](URL)
 ```
 
-Rendered:
+Rendered as:
+
 [Link Text](URL)
 
 - Link Text: This is the visible part of the link that users will see in the document. It's placed inside square brackets [ ].
@@ -22,7 +23,8 @@ Rendered:
 [Google](https://www.google.com)
 ```
 
-Rendered:
+Rendered as:
+
 [Google](https://www.google.com)
 
 In the above example, "Google" is the link text that will be visible, and
@@ -38,7 +40,8 @@ documentation or notes.
 [Java Notes](/Java/README.md)
 ```
 
-Rendered:
+Rendered as:
+
 [Java Notes](/Java/README.md)
 
 In this example, clicking on "Java Notes" would take the user to the README file
@@ -54,7 +57,8 @@ special characters to create the link target.
 [Go to Index](#links-in-markdown)
 ```
 
-Rendered:
+Rendered as:
+
 [Go to Index](#links-in-markdown)
 
 Assuming there's a section titled "Index" in the same document, clicking on
@@ -71,7 +75,8 @@ clicking the link.
 [Send Email](mailto:example@example.com)
 ```
 
-Rendered:
+Rendered as:
+
 [Send Email](mailto:example@example.com)
 
 Clicking on "Send Email" will open the default email client to send an email to
