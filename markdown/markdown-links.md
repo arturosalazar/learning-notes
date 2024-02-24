@@ -1,3 +1,9 @@
+# Links in Markdown
+
+You can use the following syntax to create links in markdown to outside websites,
+other documents or sections within the same repository, sections within a document,
+and email.
+
 # Basic Link Syntax
 
 ```markdown
@@ -45,11 +51,11 @@ the section title. This is done by replacing spaces with dashes and removing
 special characters to create the link target.
 
 ```markdown
-[Go to Index](#index)
+[Go to Index](#links-in-markdown)
 ```
 
 Rendered:
-[Go to Index](#index)
+[Go to Index](#links-in-markdown)
 
 Assuming there's a section titled "Index" in the same document, clicking on
 "Go to Index" would take the user directly to that section.
