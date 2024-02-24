@@ -31,6 +31,7 @@ documentation or notes.
 ```markdown
 [Java Notes](/Java/README.md)
 ```
+
 Rendered:
 [Java Notes](/Java/README.md)
 
@@ -46,6 +47,7 @@ special characters to create the link target.
 ```markdown
 [Go to Index](#index)
 ```
+
 Rendered:
 [Go to Index](#index)
 
@@ -53,3 +55,18 @@ Assuming there's a section titled "Index" in the same document, clicking on
 "Go to Index" would take the user directly to that section.
 The # symbol followed by the section name (with spaces replaced by dashes and
 in lowercase) is used to specify the section you want to link to.
+
+# Email Links
+
+Markdown also supports mailto links, which allow users to send an email by
+clicking the link.
+
+```markdown
+[Send Email](mailto:example@example.com)
+```
+
+Rendered:
+[Send Email](mailto:example@example.com)
+
+Clicking on "Send Email" will open the default email client to send an email to
+example@example.com.
