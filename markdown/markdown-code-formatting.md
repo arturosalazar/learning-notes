@@ -21,16 +21,21 @@ line with the rest of the text
 
 (Work in Progress)
 
-<!-- Using Triple Backticks
+Using Triple Backticks
+
+````
+```markdown
+[Link Text](URL)
+```
+````
+
+Rendered as:
 
 ```markdown
-` ` `
-
 [Link Text](URL)
-
-` ` `
 ```
 
+<!--
 Using Indentation (Four Spaces)
 
 ```markdown
