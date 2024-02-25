@@ -19,8 +19,6 @@ line with the rest of the text
 
 # Code Blocks
 
-(Work in Progress)
-
 Using Triple Backticks
 
 ````
@@ -35,38 +33,31 @@ Rendered as:
 [Link Text](URL)
 ```
 
-<!--
 Using Indentation (Four Spaces)
 
 ```markdown
     [Link Text](URL)
 ```
 
-Both rendered as:
+Rendered as:
 
 ```markdown
 [Link Text](URL)
-``` -->
+```
 
 # Code Blocks - Syntax Highlighting
 
-(Work in Progress)
-
-<!-- Many Markdown renderers (but not necessarily all) support syntax highlighting
+Many Markdown renderers (but not necessarily all) support syntax highlighting
 for code blocks when you specify the programming language immediately after the
 opening triple backticks. This applies a color scheme appropriate for the
 specified language, making the code easier to read and understand.
 
-````markdown
+````
 ```python
 def hello_world():
     print("Hello, world!")
 ```
 ````
-
-```
-
-```
 
 Rendered as:
 
@@ -75,7 +66,7 @@ def hello_world():
     print("Hello, world!")
 ```
 
-````markdown
+````
 ```javascript
 function helloWorld() {
   console.log("Hello, world!");
@@ -83,11 +74,10 @@ function helloWorld() {
 ```
 ````
 
-````
-
 Rendered as:
+
 ```javascript
 function helloWorld() {
-    console.log("Hello, world!");
+  console.log("Hello, world!");
 }
-```` -->
+```
