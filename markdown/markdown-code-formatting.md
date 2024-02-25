@@ -66,6 +66,8 @@ def hello_world():
     print("Hello, world!")
 ```
 
+Another example (this time with javascript)
+
 ````
 ```javascript
 function helloWorld() {
