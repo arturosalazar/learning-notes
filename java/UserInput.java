@@ -1,5 +1,5 @@
-
 // How to get user input from a user using Java
+
 import java.util.Scanner;
 
 public class UserInput {
