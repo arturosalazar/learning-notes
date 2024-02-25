@@ -23,6 +23,9 @@ technologies.
 
 ### Languages
 
-- [Java](/Java) (Work in Progress)
-- [Python](/Python) (Work in Progress)
+- [Markdown](/markdown)
+- - [Markdown - Links](/markdown/markdown-links.md)
+- - [Markdown - Code formatting](/markdown/markdown-code-formatting.md)
+- Java (Planned)
+- Python (Planned)
 - JavaScript (Planned)
