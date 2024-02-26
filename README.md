@@ -24,8 +24,11 @@ technologies.
 ### Languages
 
 - [Markdown](/markdown)
-- - [Markdown - Links](/markdown/markdown-links.md)
-- - [Markdown - Code formatting](/markdown/markdown-code-formatting.md)
-- Java (Planned)
+  - [Markdown - Links](/markdown/markdown-links.md)
+  - [Markdown - Code formatting](/markdown/markdown-code-formatting.md)
+- [Java](/java/)
+  - [Java - User Input](/java/UserInput.java)
+  - [Java - Switch Statements](/java/SwitchStatements.java)
+  - [Java - Switch Expressions](/java/SwitchExpressions.java)
 - Python (Planned)
 - JavaScript (Planned)
