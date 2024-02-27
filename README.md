@@ -30,5 +30,6 @@ technologies.
   - [Java - User Input](/java/UserInput.java)
   - [Java - Switch Statements](/java/SwitchStatements.java)
   - [Java - Switch Expressions](/java/SwitchExpressions.java)
+  - [Java - Random Integers](/java/RandomInteger.java)
 - Python (Planned)
 - JavaScript (Planned)
