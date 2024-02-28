@@ -12,6 +12,7 @@ public class VariableScope {
 
         // Calling other methods within the class.
         method1();
+        method2();
     }
 
     public static void method1() {
@@ -21,5 +22,23 @@ public class VariableScope {
         // inMain is not accessible here; it's local to main.
         String inMethod1 = "inMethod1: Local to method1";
         System.out.println("Inside method1: can access 'inMethod1': " + inMethod1);
+    }
+
+    public static void method2() {
+        // Accessible due to class scope.
+        System.out.println("Inside method2: can access the static variable: " + outer);
+
+        // Local variable to method2.
+        String inMethod2 = "inMethod2: Local to method2";
+        System.out.println("Inside method2: can access 'inMethod2': " + inMethod2);
+
+        // Demonstrating scope within block statements.
+        if (true) {
+            String inIfStatement = "inIfStatement: Local to this if block";
+            System.out.println("Inside if block in method2: can access 'inIfStatement': " + inIfStatement);
+            // inIfStatement is accessible only within this if block.
+        }
+        // Here, inIfStatement is not accessible because its scope is limited to the if
+        // block above.
     }
 }
