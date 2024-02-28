@@ -21,6 +21,10 @@ public class StringFormat {
         String orderSummary = String.format("Quantity: %d, Price per Item: $%.2f", quantity, price);
         System.out.println(orderSummary);
 
-
+        // Formatting a string to include a newline character (\n) for better
+        // readability in console output.
+        // \n creates a new line in the output, useful for separating sections of text.
+        String multiLineMessage = String.format("Order Details:\n%s\n%s", formattedPi, orderSummary);
+        System.out.println(multiLineMessage);
     }
 }
