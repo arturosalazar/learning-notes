@@ -12,12 +12,13 @@ public class StringEquals {
         // to emphasize that even identical string contents do not share the same memory
         // location
         // when created in this manner.
+        System.out.println("Correct way: use .equals()");
         String first = new String("I love Java");
         String second = new String("I love Java");
         System.out.println("Created two String variables with new String(\"I love java\")");
-        System.out.println("First: " + first);
-        System.out.println("Second: " + second); // Corrected to show 'second' instead of 'first'
-        System.out.println("first.equals(second): " + first.equals(second) + "\n");
+        System.out.println("first: " + first);
+        System.out.println("second: " + second); // Corrected to show 'second' instead of 'first'
+        System.out.println("first.equals(second): " + first.equals(second));
 
         // Demonstrates the incorrect way to compare strings using '=='
         // This compares the reference (memory location) of the string objects, not
@@ -25,11 +26,15 @@ public class StringEquals {
         // '==' comparison is misleading because it checks object identity,
         // which does not guarantee content equality, especially for objects created
         // with 'new String()'.
-        System.out.println("Wrong way: use ==");
+        System.out.println("\nWrong way: use ==");
         System.out.println(
-                "This will compare the memory location of each string object, NOT the contents of the objects.");
-        System.out.println("first == first: " + (first == first)); // This will always be true because it compares the
-                                                                   // same object reference.
+                "'==' will compare the memory location of each string object, NOT the contents of the objects.");
+        System.out.println("first: " + first);
+        String firstCopy = first;
+        System.out.println("firstCopy = first");
+        System.out.println("firstCopy and first now point to same memory location\n");
+        System.out.println("first == firstCopy: " + (first == firstCopy)); // This will always be true because it
+                                                                           // compares the same object reference.
         System.out.println("first == second: " + (first == second)); // Corrected to compare 'first' with 'second' to
                                                                      // demonstrate the point.
 
