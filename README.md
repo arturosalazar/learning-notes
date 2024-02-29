@@ -31,5 +31,8 @@ technologies.
   - [Java - Switch Statements](/java/SwitchStatements.java)
   - [Java - Switch Expressions](/java/SwitchExpressions.java)
   - [Java - Random Integers](/java/RandomInteger.java)
+  - [Java - StringFormat](/java/StringFormat.java)
+  - [Java - VariableArguments](/java/VariableArguments.java)
+  - [Java - VariableScope](/java/VariableScope.java)
 - Python (Planned)
 - JavaScript (Planned)
