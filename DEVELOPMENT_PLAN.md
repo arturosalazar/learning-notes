@@ -1,9 +1,14 @@
 # Detailed Development Plan and Overall Todo List for Learning Notes
 
-## A place to collect everything I want to update or fix
+This will act as a collection of anything I want to update or fix regarding my
+learning notes.
 
-### Write out RUNJAVAFILES.md in Java sub folder
+I don't plan to make fixes or changes linearly - I may jump around as suits my
+time and needs
 
-    possibly rename for clarity
+## To Do's
 
-### Update the links in the outermost README.md file
+- Write out RUNJAVAFILES.md in Java sub folder
+  possibly rename for clarity
+
+- Update the links in the root README.md file
