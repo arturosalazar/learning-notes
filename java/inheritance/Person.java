@@ -15,7 +15,8 @@ public class Person {
     }
 
     // Getter and setter methods for each property.
-    // These methods allow derived classes to access and modify the inherited properties.
+    // These methods allow derived classes to access and modify the inherited
+    // properties.
     public String getName() {
         return name;
     }
