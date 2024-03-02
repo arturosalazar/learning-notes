@@ -5,7 +5,7 @@ package inheritance;
 public class InheritanceChecker {
     public static void main(String[] args) {
         // Creating an instance of Person and displaying its properties.
-        Person person = new Person();
+        Person person = new Person("Mary", 35, 65.0);
         System.out.println(person.getName());
         System.out.println(person.getAge());
         System.out.println(person.getHeight());
