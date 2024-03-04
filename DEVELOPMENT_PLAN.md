@@ -33,5 +33,6 @@ time and needs
 - (Java) Collections - overview of notes regarding collections and how they work. markdown page
 - (Java) Collections - Using an iterator
 - (Java) Collections - How to use an iterator with Map (using EntrySet)
-- (Java) Collection - using a forEach and a lambda expression
+- (Java) Collections - using a forEach and a lambda expression
 - (Java) Lambda Expressions - A lambda expression is a short block of code that, just like a method, accepts parameters and returns a value. They differ from methods in that they do not have names, and they're executed in-line versus being called by other methods.
+- TODO (Java) Collections - explore how to use algorithms on java.util.Collections
