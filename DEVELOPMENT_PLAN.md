@@ -8,8 +8,8 @@ time and needs
 
 ## To Do's
 
-~ - Write out RUNJAVAFILES.md in Java sub folder ~
-~ possibly rename for clarity ~
+~~ - Write out RUNJAVAFILES.md in Java sub folder ~~
+~~ possibly rename for clarity ~~
 
 - Update the links in the root README.md file
 
