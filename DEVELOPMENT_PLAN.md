@@ -12,4 +12,22 @@ time and needs
 
 - (Java) Add overriding methods
 - (Java) Add overloading methods
-- (Java) Add abstract classes
+- (Java) Private, Final, Public methods/fields (note how private methods/fields
+  are not directly accessible but still inherited and accessible by public methods)
+- (Java) Sealed classes
+- (Java) Polymorphism - Using different classes of common sub class
+- (Java) Polymorphism - Object typecasting
+- (Java) Polymorphism - instanceof
+- (Java) Polymorphism - shortcut for checking instanceof and creating variable
+  if (rocky instanceof Cat rockyThecat){}
+- (Java) Abstract classes - Create abstract classes w/ abstract and non abstract methods
+- (Java) Abstract classes - Inheriting from abstract classes and implementing abstract methods
+  Add notes regarding abstract classes/methods as templates and how to use (subclass only)
+- (Java) Interfaces - Create interfaces w/ and w/o static fields (note that defaults fields to public static final)
+- (Java) Interfaces - Implementing interfaces and instantiating interfaces
+- (Java) Interfaces - default methods
+- (Java) Interfaces - static methods
+- General - Try to include start/end examples (one folder start, one folder end) to provide examples of
+  what a program looks like before and after something new is implemented. May help put things in context
+  Go through examples to see if anything would benefit from this
+- (Java) Collections - overview of notes regarding collections and how they work. markdown page
