@@ -30,6 +30,7 @@ time and needs
 - General - Try to include start/end examples (one folder start, one folder end) to provide examples of
   what a program looks like before and after something new is implemented. May help put things in context
   Go through examples to see if anything would benefit from this
+- (Java) Collections - create a folder just for collections exampels
 - (Java) Collections - overview of notes regarding collections and how they work. markdown page
 - (Java) Collections - Using an iterator
 - (Java) Collections - How to use an iterator with Map (using EntrySet)
