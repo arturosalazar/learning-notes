@@ -8,8 +8,6 @@ time and needs
 
 ## To Do's
 
-- Update the links in the root README.md file
-
 - (Java) Add overriding methods
 - (Java) Add overloading methods
 - (Java) Private, Final, Public methods/fields (note how private methods/fields
