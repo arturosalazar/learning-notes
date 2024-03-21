@@ -1,3 +1,4 @@
+package stringmanipulation;
 // Demonstrates the correct way to compare String variables in Java.
 // This program also illustrates why using 'new String()' creates distinct objects
 // and how string interning can make '==' appear to work in some cases,
