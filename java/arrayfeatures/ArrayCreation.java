@@ -2,6 +2,7 @@ package arrayfeatures;
 
 import java.util.Arrays;
 
+// Demonstrates how to create, initialize, and print an array of strings in Java.
 public class ArrayCreation {
     public static void main(String[] args) {
         // Create a 6 item array to hold Strings
@@ -13,8 +14,12 @@ public class ArrayCreation {
         programmingLanguages[4] = "JavaScript";
         programmingLanguages[5] = "TypeScript";
 
-        // To print an array as a whole, you need Arrays.toString()
-        // Import java.util.Arrays to do so
+        // Alternative array initialization in a single line:
+        // String[] programmingLanguages = {"Java", "Python", "C", "C++", "JavaScript",
+        // "TypeScript"};
+
+        // Printing the array directly would not show its contents properly.
+        // Arrays.toString() is used to print a readable representation of the array.
         System.out.println(Arrays.toString(programmingLanguages));
 
     }
