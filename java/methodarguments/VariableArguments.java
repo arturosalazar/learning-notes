@@ -1,3 +1,4 @@
+package methodarguments;
 //Demonstrate the use of variable arguments in a method declaration
 public class VariableArguments {
     public static void main(String[] args) {
