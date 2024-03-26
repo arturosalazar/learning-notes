@@ -40,6 +40,8 @@ technologies.
     - [Java - String Manipulation - String.equals()](/java/stringmanipulation/StringEquals.java)
     - [Java - String Manipulation - String.format()](/java/stringmanipulation/StringFormat.java)
     - [Java - String Manipulation - Iterate over a String](/java/stringmanipulation/IterateOverString.java)
+  - [Java - Arrays](/java/arrayfeatures/)
+    - [Java - Arrays - ArrayCreation](/java/arrayfeatures/ArrayCreation.java)
   - [Java - Inheritance](/java/inheritance/)
     - [Java - Inheritance - Super Class - Person](/java/inheritance/Person.java)
     - [Java - Inheritance - Sub Class - Employee](/java/inheritance/Employee.java)
