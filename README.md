@@ -48,6 +48,8 @@ technologies.
     - [Java - Inheritance - Super Class - Person](/java/inheritance/Person.java)
     - [Java - Inheritance - Sub Class - Employee](/java/inheritance/Employee.java)
     - [Java - Inheritance - Demonstrate Usage of Inheritance - Inheritance Checker](/java/inheritance/InheritanceChecker.java)
+  - [Java - Working With Objects](/java/workingwithobjects/)
+    - []
   - [Java - Collections](/java/collections/)
     - [Java - Collections - Set Example](/java/collections/SetExample.java)
 
