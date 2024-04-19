@@ -39,5 +39,14 @@ public class IterateOverStrings {
         }
         System.out.println();
 
+        // Using Java 8 Streams with chars() and forEach methods:
+        // Pro: Very succinct
+        // Con: Each character is turned into a corresponding ASCII integer value, so needs to be cast to print as char
+        //      Cannot use unicode characters
+        example.chars().forEach(c -> {
+            System.out.print((char) c);
+        });
+        System.out.println();
+
     }
 }
