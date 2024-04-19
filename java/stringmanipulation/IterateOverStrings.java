@@ -1,6 +1,8 @@
 package stringmanipulation;
 // Demonstrates a variety of ways to iterate over a String in Java
 
+import java.util.PrimitiveIterator;
+
 // Simply printing the character will be used to demo processing the character, but any other way to process can be used
 // When applicable, reasons behind using one way over another way to iterate will be explained
 
@@ -27,5 +29,15 @@ public class IterateOverStrings {
             i++;
         }
         System.out.println();
+
+        // Using a 'for-each' loop with toCharArray():
+        // Pro: Less verbose, clearer to see what is happening
+        // Con: Requires that you turn the String into a character array with
+        // toCharArray() first
+        for (char c : example.toCharArray()) {
+            System.out.print(c);
+        }
+        System.out.println();
+
     }
 }
