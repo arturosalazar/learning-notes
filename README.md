@@ -49,7 +49,9 @@ technologies.
     - [Java - Inheritance - Sub Class - Employee](/java/inheritance/Employee.java)
     - [Java - Inheritance - Demonstrate Usage of Inheritance - Inheritance Checker](/java/inheritance/InheritanceChecker.java)
   - [Java - Working With Objects](/java/workingwithobjects/)
-    - []
+    - [Java - Working With Objects - Creating and Using Objects](/java/workingwithobjects/creatingandusingobjects/)
+      - [Java - Working With Objects - Creating and Using Objects - Basic Object](/java/workingwithobjects/creatingandusingobjects/Rectangle.java)
+      - [Java - Working With Objects - Creating and Using Objects - Tester for Basic Object](/java/workingwithobjects/creatingandusingobjects/RectangleTester.java)
   - [Java - Collections](/java/collections/)
     - [Java - Collections - Set Example](/java/collections/SetExample.java)
 
