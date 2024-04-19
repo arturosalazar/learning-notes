@@ -48,5 +48,14 @@ public class IterateOverStrings {
         });
         System.out.println();
 
+        // Using Java 8 Streams with codePoints() method
+        // Pro: Very succinct and can use unicode characters
+        // Con: Every code is turned into a corresponding UNICODE integer
+        //      Need to convert codePoints into character to process as char
+        example.codePoints().forEach(codePoint -> {
+            System.out.print((char) codePoint);
+        });
+        System.out.println();
+
     }
 }
