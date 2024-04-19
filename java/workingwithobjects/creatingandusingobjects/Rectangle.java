@@ -36,7 +36,7 @@ public class Rectangle {
     }
 
     // Calculates and returns the perimeter of the rectangle.
-    public double calculatePerimiter() {
+    public double calculatePerimeter() {
         return (2 * length) + (2 * width);
     }
 
