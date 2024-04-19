@@ -41,8 +41,9 @@ public class IterateOverStrings {
 
         // Using Java 8 Streams with chars() and forEach methods:
         // Pro: Very succinct
-        // Con: Each character is turned into a corresponding ASCII integer value, so needs to be cast to print as char
-        //      Cannot use unicode characters
+        // Con: Each character is turned into a corresponding ASCII integer value, so
+        // needs to be cast to print as char
+        // Cannot use unicode characters
         example.chars().forEach(c -> {
             System.out.print((char) c);
         });
@@ -51,11 +52,23 @@ public class IterateOverStrings {
         // Using Java 8 Streams with codePoints() method
         // Pro: Very succinct and can use unicode characters
         // Con: Every code is turned into a corresponding UNICODE integer
-        //      Need to convert codePoints into character to process as char
+        // Need to convert codePoints into character to process as char
         example.codePoints().forEach(codePoint -> {
             System.out.print((char) codePoint);
         });
         System.out.println();
 
+        // Using an 'Iterator' with chars() or codePoints() Stream:
+        // Convert character stream into an Iterator for more controlled iteration
+        // such as removing elements during iteration etc
+        // Pro: Controlled iteration, useful for modifiable iteration
+        // Con: Adds complexity with manual type conversions
+        PrimitiveIterator.OfInt it = example.chars().iterator();
+        while (it.hasNext()) {
+            System.out.print((char) it.nextInt()); // Use nextInt() to get int value that can be cast to a char directly
+            // Using .next() will return an Integer object that cannot be directly cast and
+            // will yield error
+        }
+        System.out.println();
     }
 }
